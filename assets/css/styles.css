@@ -798,6 +798,7 @@ img {
 .contact__icon{
   width: 24px;
   height: 24px;
+  filter: invert(1);
 }
 .contact__title{
   font-size: var(--normal-font-size);
@@ -879,6 +880,9 @@ img {
 .footer__social-link:hover{
   transform: translateY(-0.25rem);
 }
+.footer__social-link img{
+  filter: invert(1);  
+}
 .footer__copy{
   display: block;
   text-align: center;
@@ -895,13 +899,13 @@ img {
 
 
 ::-webkit-scrollbar{
-  width: 0.6rem;
+  width: 0.8rem;
   background-color: hsl(var(--hue), 6%, 12%);
-  border-radius: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: hsl(var(--hue), 6%, 24%);
+  background-color: hsl(var(--hue), 30%, 24%);
+
 }
 
 ::-webkit-scrollbar-thumb:hover{
