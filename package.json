@@ -1,0 +1,18 @@
+{
+  "name": "minanak-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Wali M Minanak - Front-End Developer and Graphic Designer",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "frontend"
+  ],
+  "author": "Wali M Minanak",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
